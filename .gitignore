@@ -1,55 +1,19 @@
-# (CUSTOM ADDED BY ME)
-/build/
+tmp/*
+html/
+public_www/
+Dockerfile
+libdump
+docs/_site
+lib/bearssl/
 
-# Prerequisites
-*.d
+/src/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+.gitignore
+.DS_Store
+.gitmodules
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+callgrind*
+docs/assets/styles/main.css.map
+tests/xxhash.h
+tests/xxhash.c
+tests/words.txt
