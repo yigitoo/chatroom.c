@@ -6,7 +6,7 @@ BIN_DIR := build
 LIB_DIR := lib
 INC_DIR := include
 BUILD_FILE := main.c
-#comment
+
 ifeq ($(OS), Windows_NT)
 EXE_FILE := $(BIN_DIR)/$(APP_NAME).exe 
 CLEAN_CMD := rd /s $(BIN_DIR)
